@@ -4,6 +4,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* header styling */
+
 #navbar {
     background-color: #1F2937;
     font-size: 18px;
@@ -37,7 +39,7 @@
     border-radius: 5px;
     padding: 5px 25px;
     color: white;
-    margin: 5px 0;
+    margin: 10px 0;
     font-weight: 700;
     font-size: 12px;
 }
@@ -52,21 +54,15 @@
     text-align: right;
 }
 
-
-
 .header-img img {
     justify-content: center;
 }
-
-
 
 #navbar p {
     font-weight: 900;
     font-size: 25px;
 }
 
-
-/* NAV BAR - Menu links */
 #navbar a {
     text-decoration: none;
 }
@@ -82,3 +78,66 @@
     font-size: 18px;
     padding: 0 5px;
 }
+
+/* body styling */
+
+/* 1-Body Squares */
+
+#body-square {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#body-square h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.rect-img-block {
+    width: 165px;
+    height: 250px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.rect-img-block div {
+    width: 175px;
+    height: 175px;
+    margin: 5px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #3882F6;
+    
+}
+
+.rect-img-block p {
+    padding-left: 10px;
+    color: lightslategray;
+}
+
+/* 2-Body Quote */
+
+#body-quote {
+    background-color: #E5E7EB;
+}
+
+#body-quote div{
+    padding: 7% 20%;
+}
+
+#body-quote p:nth-child(1){
+    font-size: 40px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#body-quote p:nth-child(2){
+    font-size: 30px;
+    font-weight: 300;
+    text-align: end;
+    font-weight: bold;
+}
+
+/* 3-Body CTA */
+
